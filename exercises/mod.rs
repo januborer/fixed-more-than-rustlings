@@ -11,6 +11,7 @@ mod intro;
 mod macros;
 mod modules;
 mod move_semantics;
+mod my;
 mod option;
 mod primitive_types;
 mod quiz1;
