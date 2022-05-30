@@ -5,10 +5,14 @@
 // I AM NOT DONE
 
 fn main() {
-    let answer = current_favorite_color();
-    println!("My current favorite color is {}", answer);
+    let mut answer = String::from("hello");
+    let ref1 = &mut answer;
+    println!("My current favorite color is {}", ref1);
+    let ref2 = &mut answer;
+    ref2.push_str(" Borer");
+    println!("My current favorite color is {}", ref2);
 }
 
 fn current_favorite_color() -> String {
-    "blue"
+    String::from("blue")
 }
