@@ -2546,7 +2546,7 @@ features	target/release/.fingerprint/unicode-width-e513ee5d451f51f4/lib-unicode-
 features	target/release/.fingerprint/walkdir-8d4b4e58cd316feb/lib-walkdir.json	/^{"rustc":14994236941212876471,"features":"[]","target":1137509349575065925,"profile":62691902954/;"	s
 fill_vec	exercises/move_semantics/move_semantics1.rs	/^fn fill_vec(vec: Vec<i32>) -> Vec<i32> {$/;"	f
 fill_vec	exercises/move_semantics/move_semantics2.rs	/^fn fill_vec(vec: Vec<i32>) -> Vec<i32> {$/;"	f
-fill_vec	exercises/move_semantics/move_semantics3.rs	/^fn fill_vec(vec: Vec<i32>) -> Vec<i32> {$/;"	f
+fill_vec	exercises/move_semantics/move_semantics3.rs	/^fn fill_vec(mut vec: Vec<i32>) -> Vec<i32> {$/;"	f
 fill_vec	exercises/move_semantics/move_semantics4.rs	/^fn fill_vec() -> Vec<i32> {$/;"	f
 filter	src/main.rs	/^    filter: Option<String>,$/;"	m	struct:ListArgs
 find_exercise	src/main.rs	/^fn find_exercise<'a>(name: &str, exercises: &'a [Exercise]) -> &'a Exercise {$/;"	f
@@ -2582,7 +2582,7 @@ generics	exercises/mod.rs	/^mod generics;$/;"	n
 generics1	exercises/generics/mod.rs	/^mod generics1;$/;"	n
 generics2	exercises/generics/mod.rs	/^mod generics2;$/;"	n
 generics3	exercises/generics/mod.rs	/^mod generics3;$/;"	n
-get_char	exercises/move_semantics/move_semantics6.rs	/^fn get_char(data: String) -> char {$/;"	f
+get_char	exercises/move_semantics/move_semantics6.rs	/^fn get_char(data: &String) -> char {$/;"	f
 get_fees	exercises/structs/structs3.rs	/^    fn get_fees(&self, cents_per_gram: i32) -> ??? {$/;"	P	implementation:Package
 get_fruit_basket	exercises/collections/hashmap2.rs	/^    fn get_fruit_basket() -> HashMap<Fruit, u32> {$/;"	f	module:tests
 get_hint_for_single_test	tests/integration_tests.rs	/^fn get_hint_for_single_test() {$/;"	f
@@ -3686,7 +3686,7 @@ str	exercises/modules/modules2.rs	/^        pub const CUCUMBER: &'static str = "
 str	exercises/modules/modules2.rs	/^        pub const PEAR: &'static str = "Pear";$/;"	v	module:delicious_snacks::fruits
 string	exercises/quiz2.rs	/^fn string(arg: String) {$/;"	f
 string_slice	exercises/quiz2.rs	/^fn string_slice(arg: &str) {$/;"	f
-string_uppercase	exercises/move_semantics/move_semantics6.rs	/^fn string_uppercase(mut data: &String) {$/;"	f
+string_uppercase	exercises/move_semantics/move_semantics6.rs	/^fn string_uppercase(mut data: String) {$/;"	f
 strings	exercises/mod.rs	/^mod strings;$/;"	n
 strings1	exercises/strings/mod.rs	/^mod strings1;$/;"	n
 strings2	exercises/strings/mod.rs	/^mod strings2;$/;"	n
