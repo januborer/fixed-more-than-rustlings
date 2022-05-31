@@ -777,8 +777,8 @@
 1.5.1 (2019-11-11)	CHANGELOG.md	/^### 1.5.1 (2019-11-11)$/;"	S	section:2.0.0 (2019-11-12)
 10	target/debug/.fingerprint/rustlings-4a4d56b3b6ab9165/test-integration-test-integration_tests.json	/^{"rustc":14994236941212876471,"features":"[]","target":6416163842395684266,"profile":10216330754/;"	a	array:deps
 10	target/debug/.fingerprint/rustlings-4bdf3dee5a54dd5d/test-bin-rustlings.json	/^{"rustc":14994236941212876471,"features":"[]","target":4701713066184903185,"profile":10216330754/;"	a	array:deps
-10376369925670944939	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o	object:outputs
-15697416045686424142	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o	object:outputs
+10376369925670944939	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
+15697416045686424142	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
 2	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	b	array:deps.0
 2	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	b	array:deps.0
 2	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	b	array:deps.1
@@ -1344,7 +1344,7 @@
 4.6.0 (2021-09-25)	CHANGELOG.md	/^## 4.6.0 (2021-09-25)$/;"	s
 4.7.0 (2022-04-14)	CHANGELOG.md	/^## 4.7.0 (2022-04-14)$/;"	s
 4.7.1 (2022-04-20)	CHANGELOG.md	/^## 4.7.1 (2022-04-20)$/;"	s
-4614504638168534921	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o	object:outputs
+4614504638168534921	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
 5	target/debug/.fingerprint/mio-e3f82a682080fe53/lib-mio.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"with-deprecated\\"]","target":16830/;"	a	array:deps
 5	target/debug/.fingerprint/notify-811de7a3e8186152/lib-notify.json	/^{"rustc":14994236941212876471,"features":"[]","target":15919744467290755756,"profile":3735503092/;"	a	array:deps
 5	target/debug/.fingerprint/rustlings-3ae3832f3ed650eb/bin-rustlings.json	/^{"rustc":14994236941212876471,"features":"[]","target":4701713066184903185,"profile":73091416868/;"	a	array:deps
@@ -1544,7 +1544,7 @@ Color	exercises/conversions/try_from_into.rs	/^impl TryFrom<(i16, i16, i16)> for
 Color	exercises/conversions/try_from_into.rs	/^impl TryFrom<[i16; 3]> for Color {$/;"	c
 Color	exercises/conversions/try_from_into.rs	/^struct Color {$/;"	s
 ColorClassicStruct	exercises/structs/structs1.rs	/^struct ColorClassicStruct {$/;"	s
-ColorTupleStruct	exercises/structs/structs1.rs	/^struct ColorTupleStruct(\/* TODO: Something goes here *\/);$/;"	s
+ColorTupleStruct	exercises/structs/structs1.rs	/^struct ColorTupleStruct(String, String);$/;"	s
 Compile	src/exercise.rs	/^    Compile,$/;"	e	enum:Mode
 CompiledExercise	src/exercise.rs	/^impl<'a> CompiledExercise<'a> {$/;"	c
 CompiledExercise	src/exercise.rs	/^pub struct CompiledExercise<'a> {$/;"	s
@@ -1802,9 +1802,9 @@ clippy	exercises/mod.rs	/^mod clippy;$/;"	n
 clippy	install.ps1	/^$clippy = (rustup component list | Select-String "clippy" | Select-String "installed") | Out-Str/;"	v
 clippy1	exercises/clippy/mod.rs	/^mod clippy1;$/;"	n
 clippy2	exercises/clippy/mod.rs	/^mod clippy2;$/;"	n
-code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n	object:outputs.10376369925670944939
-code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n	object:outputs.15697416045686424142
-code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n	object:outputs.4614504638168534921
+code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.10376369925670944939
+code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.15697416045686424142
+code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.4614504638168534921
 collections	exercises/mod.rs	/^mod collections;$/;"	n
 color	exercises/enums/enums3.rs	/^    color: (u8, u8, u8),$/;"	m	struct:State
 compile	src/exercise.rs	/^    pub fn compile(&self) -> Result<CompiledExercise, ExerciseOutput> {$/;"	P	implementation:Exercise
@@ -2583,7 +2583,7 @@ generics1	exercises/generics/mod.rs	/^mod generics1;$/;"	n
 generics2	exercises/generics/mod.rs	/^mod generics2;$/;"	n
 generics3	exercises/generics/mod.rs	/^mod generics3;$/;"	n
 get_char	exercises/move_semantics/move_semantics6.rs	/^fn get_char(data: &String) -> char {$/;"	f
-get_fees	exercises/structs/structs3.rs	/^    fn get_fees(&self, cents_per_gram: i32) -> ??? {$/;"	P	implementation:Package
+get_fees	exercises/structs/structs3.rs	/^    fn get_fees(&self, cents_per_gram: i32) -> i32 {$/;"	P	implementation:Package
 get_fruit_basket	exercises/collections/hashmap2.rs	/^    fn get_fruit_basket() -> HashMap<Fruit, u32> {$/;"	f	module:tests
 get_hint_for_single_test	tests/integration_tests.rs	/^fn get_hint_for_single_test() {$/;"	f
 get_map	exercises/standard_library_types/iterators5.rs	/^    fn get_map() -> HashMap<String, Progress> {$/;"	f	module:tests
@@ -2595,6 +2595,7 @@ greater_than_eleven_fruits	exercises/collections/hashmap2.rs	/^    fn greater_th
 green	exercises/conversions/try_from_into.rs	/^    green: u8,$/;"	m	struct:Color
 hashmap1	exercises/collections/mod.rs	/^mod hashmap1;$/;"	n
 hashmap2	exercises/collections/mod.rs	/^mod hashmap2;$/;"	n
+hex	exercises/structs/structs1.rs	/^    hex: String,$/;"	m	struct:ColorClassicStruct
 hint	src/exercise.rs	/^    pub hint: String,$/;"	m	struct:Exercise
 if1	exercises/if/mod.rs	/^mod if1;$/;"	n
 if2	exercises/if/mod.rs	/^mod if2;$/;"	n
@@ -2610,7 +2611,7 @@ is_even	exercises/functions/functions4.rs	/^fn is_even(num: i32) -> bool {$/;"	f
 is_even	exercises/tests/tests3.rs	/^pub fn is_even(num: i32) -> bool {$/;"	f
 is_false_when_odd	exercises/tests/tests3.rs	/^    fn is_false_when_odd() {$/;"	f	module:tests
 is_foo_bar	exercises/traits/traits1.rs	/^    fn is_foo_bar() {$/;"	f	module:tests
-is_international	exercises/structs/structs3.rs	/^    fn is_international(&self) -> ??? {$/;"	P	implementation:Package
+is_international	exercises/structs/structs3.rs	/^    fn is_international(&self) -> bool {$/;"	P	implementation:Package
 is_true_when_even	exercises/tests/tests3.rs	/^    fn is_true_when_even() {$/;"	f	module:tests
 is_vec_pop_eq_bar	exercises/traits/traits2.rs	/^    fn is_vec_pop_eq_bar() {$/;"	f	module:tests
 it_works	tests/fixture/state/pending_test_exercise.rs	/^fn it_works() {}$/;"	f
@@ -3004,6 +3005,7 @@ my_macro	exercises/macros/macros4.rs	/^macro_rules! my_macro {$/;"	M
 my_test	exercises/my/mod.rs	/^mod my_test;$/;"	n
 name	exercises/conversions/from_into.rs	/^    name: String,$/;"	m	struct:Person
 name	exercises/conversions/from_str.rs	/^    name: String,$/;"	m	struct:Person
+name	exercises/structs/structs1.rs	/^    name: String,$/;"	m	struct:ColorClassicStruct
 name	exercises/structs/structs2.rs	/^    name: String,$/;"	m	struct:Order
 name	src/exercise.rs	/^    pub name: String,$/;"	m	struct:Exercise
 name	src/main.rs	/^    name: String,$/;"	m	struct:HintArgs
@@ -3031,7 +3033,7 @@ output	target/debug/.fingerprint/proc-macro2-a3d0b78b3b025bf5/run-build-script-b
 output	target/release/.fingerprint/libc-2433b82b75f9a503/run-build-script-build-script-build.json	/^{"rustc":14994236941212876471,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	object:local.0.RerunIfChanged
 output	target/release/.fingerprint/log-754fb3e4c0ee565e/run-build-script-build-script-build.json	/^{"rustc":14994236941212876471,"features":"","target":0,"profile":0,"path":0,"deps":[[65975643192/;"	s	object:local.0.RerunIfChanged
 output	target/release/.fingerprint/proc-macro2-7f9b155fc072d2a6/run-build-script-build-script-build.json	/^{"rustc":14994236941212876471,"features":"","target":0,"profile":0,"path":0,"deps":[[11187512571/;"	s	object:local.0.RerunIfChanged
-outputs	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o
+outputs	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o
 parse_pos_nonzero	exercises/error_handling/errors6.rs	/^fn parse_pos_nonzero(s: &str)$/;"	f
 passing	tests/fixture/failure/testFailure.rs	/^fn passing() {$/;"	f
 passing	tests/fixture/success/testSuccess.rs	/^fn passing() {$/;"	f
@@ -3513,7 +3515,7 @@ rustc	target/release/.fingerprint/unicode-segmentation-de0ee2b1fb66eb13/lib-unic
 rustc	target/release/.fingerprint/unicode-width-e513ee5d451f51f4/lib-unicode-width.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\"]","target":17418858882456802873,"profil/;"	n
 rustc	target/release/.fingerprint/walkdir-8d4b4e58cd316feb/lib-walkdir.json	/^{"rustc":14994236941212876471,"features":"[]","target":1137509349575065925,"profile":62691902954/;"	n
 rustc_exists	src/main.rs	/^fn rustc_exists() -> bool {$/;"	f
-rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	n
+rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n
 rustflags	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	a
 rustflags	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	a
 rustflags	target/debug/.fingerprint/argh_derive-ea520c0805f5c19c/lib-argh_derive.json	/^{"rustc":14994236941212876471,"features":"[]","target":10172944826189228195,"profile":1263731873/;"	a
@@ -3667,17 +3669,17 @@ spawn_watch_shell	src/main.rs	/^fn spawn_watch_shell(failed_exercise_hint: &Arc<
 square	exercises/functions/functions5.rs	/^fn square(num: i32) -> i32 {$/;"	f
 standard_library_types	exercises/mod.rs	/^mod standard_library_types;$/;"	n
 state	src/exercise.rs	/^    pub fn state(&self) -> State {$/;"	P	implementation:Exercise
-status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.10376369925670944939
-status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.15697416045686424142
-status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.4614504638168534921
+status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
+status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
+status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
 stderr	src/exercise.rs	/^    pub stderr: String,$/;"	m	struct:ExerciseOutput
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.10376369925670944939
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.15697416045686424142
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.4614504638168534921
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
 stdout	src/exercise.rs	/^    pub stdout: String,$/;"	m	struct:ExerciseOutput
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.10376369925670944939
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.15697416045686424142
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	s	object:outputs.4614504638168534921
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
 store_str_in_wrapper	exercises/generics/generics2.rs	/^    fn store_str_in_wrapper() {$/;"	f	module:tests
 store_u32_in_wrapper	exercises/generics/generics2.rs	/^    fn store_u32_in_wrapper() {$/;"	f	module:tests
 str	exercises/modules/modules2.rs	/^        pub const APPLE: &'static str = "Apple";$/;"	v	module:delicious_snacks::fruits
@@ -3697,10 +3699,10 @@ structs3	exercises/structs/mod.rs	/^mod structs3;$/;"	n
 student_age	exercises/generics/generics3.rs	/^    pub student_age: u8,$/;"	m	struct:ReportCard
 student_name	exercises/generics/generics3.rs	/^    pub student_name: String,$/;"	m	struct:ReportCard
 success	src/ui.rs	/^macro_rules! success {$/;"	M
-success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	b	object:outputs.10376369925670944939
-success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	b	object:outputs.15697416045686424142
-success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	b	object:outputs.4614504638168534921
-successes	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"10376369925670944939":{"success":true,"stat/;"	o
+success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.10376369925670944939
+success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.15697416045686424142
+success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.4614504638168534921
+successes	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o
 target	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	n
 target	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	n
 target	target/debug/.fingerprint/argh_derive-ea520c0805f5c19c/lib-argh_derive.json	/^{"rustc":14994236941212876471,"features":"[]","target":10172944826189228195,"profile":1263731873/;"	n
