@@ -777,8 +777,8 @@
 1.5.1 (2019-11-11)	CHANGELOG.md	/^### 1.5.1 (2019-11-11)$/;"	S	section:2.0.0 (2019-11-12)
 10	target/debug/.fingerprint/rustlings-4a4d56b3b6ab9165/test-integration-test-integration_tests.json	/^{"rustc":14994236941212876471,"features":"[]","target":6416163842395684266,"profile":10216330754/;"	a	array:deps
 10	target/debug/.fingerprint/rustlings-4bdf3dee5a54dd5d/test-bin-rustlings.json	/^{"rustc":14994236941212876471,"features":"[]","target":4701713066184903185,"profile":10216330754/;"	a	array:deps
-10376369925670944939	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
-15697416045686424142	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
+10376369925670944939	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
+15697416045686424142	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
 2	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	b	array:deps.0
 2	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	b	array:deps.0
 2	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	b	array:deps.1
@@ -1344,7 +1344,7 @@
 4.6.0 (2021-09-25)	CHANGELOG.md	/^## 4.6.0 (2021-09-25)$/;"	s
 4.7.0 (2022-04-14)	CHANGELOG.md	/^## 4.7.0 (2022-04-14)$/;"	s
 4.7.1 (2022-04-20)	CHANGELOG.md	/^## 4.7.1 (2022-04-20)$/;"	s
-4614504638168534921	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o	object:outputs
+4614504638168534921	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o	object:outputs
 5	target/debug/.fingerprint/mio-e3f82a682080fe53/lib-mio.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"with-deprecated\\"]","target":16830/;"	a	array:deps
 5	target/debug/.fingerprint/notify-811de7a3e8186152/lib-notify.json	/^{"rustc":14994236941212876471,"features":"[]","target":15919744467290755756,"profile":3735503092/;"	a	array:deps
 5	target/debug/.fingerprint/rustlings-3ae3832f3ed650eb/bin-rustlings.json	/^{"rustc":14994236941212876471,"features":"[]","target":4701713066184903185,"profile":73091416868/;"	a	array:deps
@@ -1802,9 +1802,9 @@ clippy	exercises/mod.rs	/^mod clippy;$/;"	n
 clippy	install.ps1	/^$clippy = (rustup component list | Select-String "clippy" | Select-String "installed") | Out-Str/;"	v
 clippy1	exercises/clippy/mod.rs	/^mod clippy1;$/;"	n
 clippy2	exercises/clippy/mod.rs	/^mod clippy2;$/;"	n
-code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.10376369925670944939
-code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.15697416045686424142
-code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n	object:outputs.4614504638168534921
+code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.10376369925670944939
+code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.15697416045686424142
+code	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n	object:outputs.4614504638168534921
 collections	exercises/mod.rs	/^mod collections;$/;"	n
 color	exercises/enums/enums3.rs	/^    color: (u8, u8, u8),$/;"	m	struct:State
 compile	src/exercise.rs	/^    pub fn compile(&self) -> Result<CompiledExercise, ExerciseOutput> {$/;"	P	implementation:Exercise
@@ -3033,7 +3033,7 @@ output	target/debug/.fingerprint/proc-macro2-a3d0b78b3b025bf5/run-build-script-b
 output	target/release/.fingerprint/libc-2433b82b75f9a503/run-build-script-build-script-build.json	/^{"rustc":14994236941212876471,"features":"","target":0,"profile":0,"path":0,"deps":[[13743578918/;"	s	object:local.0.RerunIfChanged
 output	target/release/.fingerprint/log-754fb3e4c0ee565e/run-build-script-build-script-build.json	/^{"rustc":14994236941212876471,"features":"","target":0,"profile":0,"path":0,"deps":[[65975643192/;"	s	object:local.0.RerunIfChanged
 output	target/release/.fingerprint/proc-macro2-7f9b155fc072d2a6/run-build-script-build-script-build.json	/^{"rustc":14994236941212876471,"features":"","target":0,"profile":0,"path":0,"deps":[[11187512571/;"	s	object:local.0.RerunIfChanged
-outputs	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o
+outputs	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o
 parse_pos_nonzero	exercises/error_handling/errors6.rs	/^fn parse_pos_nonzero(s: &str)$/;"	f
 passing	tests/fixture/failure/testFailure.rs	/^fn passing() {$/;"	f
 passing	tests/fixture/success/testSuccess.rs	/^fn passing() {$/;"	f
@@ -3515,7 +3515,7 @@ rustc	target/release/.fingerprint/unicode-segmentation-de0ee2b1fb66eb13/lib-unic
 rustc	target/release/.fingerprint/unicode-width-e513ee5d451f51f4/lib-unicode-width.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\"]","target":17418858882456802873,"profil/;"	n
 rustc	target/release/.fingerprint/walkdir-8d4b4e58cd316feb/lib-walkdir.json	/^{"rustc":14994236941212876471,"features":"[]","target":1137509349575065925,"profile":62691902954/;"	n
 rustc_exists	src/main.rs	/^fn rustc_exists() -> bool {$/;"	f
-rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	n
+rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	n
 rustflags	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	a
 rustflags	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	a
 rustflags	target/debug/.fingerprint/argh_derive-ea520c0805f5c19c/lib-argh_derive.json	/^{"rustc":14994236941212876471,"features":"[]","target":10172944826189228195,"profile":1263731873/;"	a
@@ -3669,17 +3669,17 @@ spawn_watch_shell	src/main.rs	/^fn spawn_watch_shell(failed_exercise_hint: &Arc<
 square	exercises/functions/functions5.rs	/^fn square(num: i32) -> i32 {$/;"	f
 standard_library_types	exercises/mod.rs	/^mod standard_library_types;$/;"	n
 state	src/exercise.rs	/^    pub fn state(&self) -> State {$/;"	P	implementation:Exercise
-status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
-status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
-status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
+status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.10376369925670944939
+status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15697416045686424142
+status	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.4614504638168534921
 stderr	src/exercise.rs	/^    pub stderr: String,$/;"	m	struct:ExerciseOutput
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.10376369925670944939
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15697416045686424142
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.4614504638168534921
 stdout	src/exercise.rs	/^    pub stdout: String,$/;"	m	struct:ExerciseOutput
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.10376369925670944939
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.15697416045686424142
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	s	object:outputs.4614504638168534921
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.10376369925670944939
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.15697416045686424142
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.4614504638168534921
 store_str_in_wrapper	exercises/generics/generics2.rs	/^    fn store_str_in_wrapper() {$/;"	f	module:tests
 store_u32_in_wrapper	exercises/generics/generics2.rs	/^    fn store_u32_in_wrapper() {$/;"	f	module:tests
 str	exercises/modules/modules2.rs	/^        pub const APPLE: &'static str = "Apple";$/;"	v	module:delicious_snacks::fruits
@@ -3699,10 +3699,10 @@ structs3	exercises/structs/mod.rs	/^mod structs3;$/;"	n
 student_age	exercises/generics/generics3.rs	/^    pub student_age: u8,$/;"	m	struct:ReportCard
 student_name	exercises/generics/generics3.rs	/^    pub student_name: String,$/;"	m	struct:ReportCard
 success	src/ui.rs	/^macro_rules! success {$/;"	M
-success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.10376369925670944939
-success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.15697416045686424142
-success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	b	object:outputs.4614504638168534921
-successes	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"15697416045686424142":{"success":false,"sta/;"	o
+success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.10376369925670944939
+success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.15697416045686424142
+success	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	b	object:outputs.4614504638168534921
+successes	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	o
 target	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	n
 target	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	n
 target	target/debug/.fingerprint/argh_derive-ea520c0805f5c19c/lib-argh_derive.json	/^{"rustc":14994236941212876471,"features":"[]","target":10172944826189228195,"profile":1263731873/;"	n
