@@ -2567,7 +2567,7 @@ from_str	exercises/conversions/from_str.rs	/^    fn from_str(s: &str) -> Result<
 from_str	exercises/conversions/mod.rs	/^mod from_str;$/;"	n
 fruit_basket	exercises/collections/hashmap1.rs	/^fn fruit_basket() -> HashMap<String, u32> {$/;"	f
 fruit_basket	exercises/collections/hashmap2.rs	/^fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {$/;"	f
-fruits	exercises/modules/modules2.rs	/^    mod fruits {$/;"	n	module:delicious_snacks
+fruits	exercises/modules/modules2.rs	/^    pub mod fruits {$/;"	n	module:delicious_snacks
 functions	exercises/mod.rs	/^mod functions;$/;"	n
 functions1	exercises/functions/mod.rs	/^mod functions1;$/;"	n
 functions2	exercises/functions/mod.rs	/^mod functions2;$/;"	n
@@ -2837,7 +2837,7 @@ main	tests/fixture/failure/compNoExercise.rs	/^fn main() {$/;"	f
 main	tests/fixture/state/finished_exercise.rs	/^fn main() {$/;"	f
 main	tests/fixture/state/pending_exercise.rs	/^fn main() {$/;"	f
 main	tests/fixture/success/compSuccess.rs	/^fn main() {$/;"	f
-make_sausage	exercises/modules/modules1.rs	/^    fn make_sausage() {$/;"	f	module:sausage_factory
+make_sausage	exercises/modules/modules1.rs	/^    pub fn make_sausage() {$/;"	f	module:sausage_factory
 metadata	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	n
 metadata	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	n
 metadata	target/debug/.fingerprint/argh_derive-ea520c0805f5c19c/lib-argh_derive.json	/^{"rustc":14994236941212876471,"features":"[]","target":10172944826189228195,"profile":1263731873/;"	n
@@ -3198,6 +3198,7 @@ primitive_types5	exercises/primitive_types/mod.rs	/^mod primitive_types5;$/;"	n
 primitive_types6	exercises/primitive_types/mod.rs	/^mod primitive_types6;$/;"	n
 print	exercises/generics/generics3.rs	/^    pub fn print(&self) -> String {$/;"	P	implementation:ReportCard
 print_number	exercises/option/option1.rs	/^fn print_number(maybe_number: Option<u16>) {$/;"	f
+print_test	exercises/modules/modules2.rs	/^        pub fn print_test() {$/;"	f	module:delicious_snacks::fruits
 process	exercises/enums/enums3.rs	/^    fn process(&mut self, message: Message) {$/;"	P	implementation:State
 profile	target/debug/.fingerprint/aho-corasick-414657c627aa66fe/lib-aho_corasick.json	/^{"rustc":14994236941212876471,"features":"[\\"default\\", \\"std\\"]","target":14517922388190571/;"	n
 profile	target/debug/.fingerprint/argh-2ad411904ceeebd7/lib-argh.json	/^{"rustc":14994236941212876471,"features":"[]","target":3617251442360586662,"profile":37355030920/;"	n
@@ -3660,7 +3661,7 @@ rustlings 🦀❤️	README.md	/^# rustlings 🦀❤️$/;"	c
 sale_price	exercises/functions/functions4.rs	/^fn sale_price(price: i32) -> i32 {$/;"	f
 same_counts	exercises/conversions/as_ref_mut.rs	/^    fn same_counts() {$/;"	f	module:tests
 same_counts_using_string	exercises/conversions/as_ref_mut.rs	/^    fn same_counts_using_string() {$/;"	f	module:tests
-sausage_factory	exercises/modules/modules1.rs	/^mod sausage_factory {$/;"	n
+sausage_factory	exercises/modules/modules1.rs	/^pub mod sausage_factory {$/;"	n
 sender_country	exercises/structs/structs3.rs	/^    sender_country: String,$/;"	m	struct:Package
 separator	src/verify.rs	/^fn separator() -> console::StyledObject<&'static str> {$/;"	f
 slice_out_of_array	exercises/primitive_types/primitive_types4.rs	/^fn slice_out_of_array() {$/;"	f
@@ -3682,6 +3683,7 @@ stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outpu
 stdout	target/.rustc_info.json	/^{"rustc_fingerprint":8382853832971924186,"outputs":{"4614504638168534921":{"success":true,"statu/;"	s	object:outputs.4614504638168534921
 store_str_in_wrapper	exercises/generics/generics2.rs	/^    fn store_str_in_wrapper() {$/;"	f	module:tests
 store_u32_in_wrapper	exercises/generics/generics2.rs	/^    fn store_u32_in_wrapper() {$/;"	f	module:tests
+str	exercises/modules/modules2.rs	/^        const TEST: &'static str = "Test";$/;"	v	module:delicious_snacks::test
 str	exercises/modules/modules2.rs	/^        pub const APPLE: &'static str = "Apple";$/;"	v	module:delicious_snacks::fruits
 str	exercises/modules/modules2.rs	/^        pub const CARROT: &'static str = "Carrot";$/;"	v	module:delicious_snacks::veggies
 str	exercises/modules/modules2.rs	/^        pub const CUCUMBER: &'static str = "Cucumber";$/;"	v	module:delicious_snacks::veggies
@@ -3849,6 +3851,8 @@ ten_is_bigger_than_eight	exercises/if/if1.rs	/^    fn ten_is_bigger_than_eight()
 test	exercises/advanced_errors/advanced_errs1.rs	/^mod test {$/;"	n
 test	exercises/advanced_errors/advanced_errs2.rs	/^mod test {$/;"	n
 test	exercises/error_handling/errors6.rs	/^mod test {$/;"	n
+test	exercises/modules/modules2.rs	/^        pub fn test() {$/;"	f	module:delicious_snacks::test
+test	exercises/modules/modules2.rs	/^    mod test {$/;"	n	module:delicious_snacks
 test	src/exercise.rs	/^mod test {$/;"	n
 test	src/verify.rs	/^pub fn test(exercise: &Exercise, verbose: bool) -> Result<(), ()> {$/;"	f
 test_array_and_vec_similarity	exercises/collections/vec1.rs	/^    fn test_array_and_vec_similarity() {$/;"	f	module:tests
@@ -3981,7 +3985,7 @@ variables6	exercises/variables/mod.rs	/^mod variables6;$/;"	n
 vec1	exercises/collections/mod.rs	/^mod vec1;$/;"	n
 vec2	exercises/collections/mod.rs	/^mod vec2;$/;"	n
 vec_loop	exercises/collections/vec2.rs	/^fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {$/;"	f
-veggies	exercises/modules/modules2.rs	/^    mod veggies {$/;"	n	module:delicious_snacks
+veggies	exercises/modules/modules2.rs	/^    pub mod veggies {$/;"	n	module:delicious_snacks
 vercomp	install.ps1	/^function vercomp($v1, $v2) {$/;"	f
 vercomp	install.sh	/^function vercomp() {$/;"	f
 verify	src/main.rs	/^mod verify;$/;"	n
